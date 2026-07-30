@@ -1,8 +1,25 @@
 aid: ultima-genomics
 name: Ultima Genomics
-description: 'Ultima Genomics is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Ultima Genomics is a genomics technology company that develops high-throughput,
+  cost-effective DNA sequencing platforms and solutions, led by its UG200 Series sequencer
+  aimed at population-scale genomics. Its platform spans germline sequencing, oncology,
+  single-cell analysis, proteomics, and epigenomics, paired with library-preparation
+  workflows and bioinformatics tooling. The company does not operate a hosted developer
+  REST API or SDK; its programmatic surface is open-source bioinformatics tools and
+  WDL pipelines published on GitHub, including workflows compatible with AWS HealthOmics.
+  Added to the API Evangelist network via the Lightspeed Venture Partners portfolio.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.ultimagenomics.com/images/favicon/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/ultima-genomics/refs/heads/main/apis.yml
 x-type: company
 x-source: lightspeed-venture-partners-portfolio
@@ -10,10 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Genomics
+- DNA Sequencing
+- Bioinformatics
+- Life Sciences
+- Sequencing
+- AWS HealthOmics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.ultimagenomics.com
+- type: GitHubOrganization
+  url: https://github.com/Ultimagen
+- type: Documentation
+  url: https://www.ultimagenomics.com/resources/?category=Support-Documents
+- type: Blog
+  url: https://www.ultimagenomics.com/news-and-events
+- type: DomainSecurity
+  url: security/ultima-genomics-domain-security.yml
+- type: LLMsTxt
+  url: llms/ultima-genomics-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
